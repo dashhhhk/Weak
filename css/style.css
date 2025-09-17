@@ -191,3 +191,95 @@ button.welcome_start:hover{
     width: 100%;
     gap: 46px;
 }
+/* будущее наступило */
+.future-is-now {
+    padding: 100px 0;
+    margin-top: 80px;
+}
+
+.container {
+    max-width: 1154px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.future-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80px;
+}
+
+.future-left {
+    flex: 0 0 426px;
+    
+}
+
+.future-title {
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 45px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: pre-line;
+    margin: 0 0 30px 0;
+}
+
+.future-desc {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #FF8A71;
+    margin: 0;
+}
+
+.future-right {
+    flex: 1;
+    max-width: 590px;
+}
+
+.future-feature {
+    margin-bottom: 40px;
+}
+
+.feature-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.feature-left {
+    flex: 0 0 180px;
+}
+
+.gradient-line {
+    width: 38px;
+    height: 3px;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    margin-bottom: 15px;
+}
+
+.future-feature-title {
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    white-space: pre-line;
+}
+
+.feature-right {
+    flex: 1;
+}
+
+.future-feature-desc {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #81AFDD;
+    margin: 0;
+    
+}
+
