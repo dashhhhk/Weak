@@ -437,6 +437,27 @@ button.welcome_start:hover{
     align-items: flex-start;
     margin-bottom: 200px;
 }
-
+.btn-cta{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+.cta-start{
+    width: 189px;
+    height: 60px;
+    font-size: 20px;
+    background: #000000;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: none;
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+button.cta-start:hover{
+    transition: all 0.3s ease-out;
+    background-color: #000000;
+}
 
 
