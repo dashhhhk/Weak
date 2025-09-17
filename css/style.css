@@ -395,7 +395,7 @@ button.welcome_start:hover{
     width: 479px;
     margin-top: 200px;
     flex-shrink: 0;
-    transform: translateX(-100px); /* Сдвигает на 500px влево */
+    transform: translateX(-100px); 
 }
 .my-apps-image{ 
     margin-left:30px;
@@ -437,15 +437,39 @@ button.welcome_start:hover{
     align-items: flex-start;
     margin-bottom: 200px;
 }
+
+.cta-background{
+    position: relative;
+    width: 1170px;
+    height: 150px;
+    background: linear-gradient(to right, #AE67FA, #F49867);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-items: flex-start; 
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    align-items: flex-start;  
+    padding: 40px;           
+    text-align: left;    
+}
 .btn-cta{
     display: flex;
     align-items: left;
     justify-content: left;
+    position: absolute;
+    right: 0px; 
+    top: 50%;
+    transform: translateY(-50%); 
 }
 .cta-start{
     width: 189px;
     height: 60px;
     font-size: 20px;
+    margin-right:900px;
     background: #000000;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -454,10 +478,26 @@ button.welcome_start:hover{
     border: none;
     color: #fff;
     transition: all 0.3s ease-out;
+    margin-right:120px;
 }
 button.cta-start:hover{
     transition: all 0.3s ease-out;
     background-color: #000000;
 }
-
+.cta-text-1{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.cta-text-2{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
